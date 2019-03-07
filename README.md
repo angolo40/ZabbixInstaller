@@ -30,4 +30,8 @@ Download this repo:
 	+ Choose correct option based on your Windows architecture
 
 + Configure Zabbix server:
-	+ Read https://www.zabbix.com/documentation/4.0/manual/encryption/using_pre_shared_keys for more option 
+	+ Read https://www.zabbix.com/documentation/4.0/manual/encryption/using_pre_shared_keys for more option
+
+
+## External program
++ Fart: Find And Replace Text command line utility ( http://fart-it.sourceforge.net/ )
