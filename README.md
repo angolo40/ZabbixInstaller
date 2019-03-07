@@ -4,8 +4,8 @@
 + 4.0.5
 
 ## Goal
-This is simple installer batch help to install zabbix agent on windows machine.
-It install agent and open a port on a windows firewall
++ This is simple installer batch help to deploy zabbix agent on Windows machine.
++ It install zabbix agent and open a port on a windows firewall
 
 ## Installation
 
