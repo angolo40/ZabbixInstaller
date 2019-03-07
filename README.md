@@ -1,7 +1,7 @@
 # ZabbixInstaller
 
-##Agent Version
-4.0.5
+## Zabbix Agent Version
++ 4.0.5
 
 ## Goal
 This is simple installer batch help to install zabbix agent on windows machine.
@@ -32,6 +32,9 @@ Download this repo:
 + Configure Zabbix server:
 	+ Read https://www.zabbix.com/documentation/4.0/manual/encryption/using_pre_shared_keys for more option
 
+
+## TODO
++ Add OpenSSL to auto generate unique key
 
 ## External program
 + Fart: Find And Replace Text command line utility ( http://fart-it.sourceforge.net/ )
