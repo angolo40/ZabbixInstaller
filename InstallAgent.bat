@@ -6,7 +6,7 @@ echo.
 echo.
 echo *****************************************************
 echo * Zabbix Agent Installer batch file on Windows OS   *
-echo * Put whole directory in c:\zabbix                  *
+echo * Put whole directory under c:\zabbix\                  *
 echo *****************************************************
 echo. 
 echo. 
@@ -132,6 +132,13 @@ if not ERRORLEVEL 1 (
     netsh advfirewall firewall add rule name=%RULE_NAME% dir=in action=allow protocol=TCP localport=%PORT%
     Echo OK - Rule name %RULE_NAME% successfully created.  
 )
+echo.
+set /p PSKKey=<c:\zabbix\zabbix_agent.psk
+echo PSK Key created: 
+echo.
+echo %PSKKey% 
+echo.
+echo Put in Zabbix Server Host configuration
 goto end
 
 :end
